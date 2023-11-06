@@ -3,7 +3,8 @@ import comfy.model_base
 import comfy.ldm.modules.diffusionmodules.openaimodel
 import comfy.samplers
 
-from comfy.samplers import model_management, lcm, math
+from comfy.samplers import model_management, math
+from conds import lcm
 from comfy.ldm.modules.diffusionmodules.openaimodel import timestep_embedding, forward_timestep_embed
 from .filters import gaussian_filter_2d
 
